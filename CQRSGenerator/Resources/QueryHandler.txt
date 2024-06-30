@@ -1,0 +1,13 @@
+﻿using {responseNamespace}.Responses;
+using MediatR;
+
+namespace {namespace};
+
+public sealed record {name}Handler()
+    :IRequestHandler<{name},{entity}Response>
+{
+    public async Task<{entity}Response> Handle({name} request, CancellationToken cancellationToken)
+    {
+         throw new NotImplementedException();
+    }
+}
